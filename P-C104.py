@@ -1,7 +1,7 @@
 import csv
 from collections import Counter
 
-a= open('csvs/SOCR-HeightWeight.csv',newline='')
+a= open('SOCR-HeightWeight.csv',newline='')
 b = csv.reader(a)
 fileData=list(b)
 fileData.pop(0)
